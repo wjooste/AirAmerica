@@ -6,6 +6,24 @@
 
 <h1>Safety Alerts</h1>
 
+  <body>
+
+  <hanko-auth />
+
+  <script type="module">
+    import { register } from 'https://esm.run/@teamhanko/hanko-elements';
+
+    const { hanko } = await register("https://98fb8efc-7748-4f07-89b0-58eee689be1c.hanko.io");
+
+    hanko.onAuthFlowCompleted(() => {
+        // successfully logged in, redirect to a page in your application
+        document.location.href = "..."
+    })
+  </script>
+
+  </body>
+
+
 <p>
     <a asp-action="Create">Create New</a>
 </p>
