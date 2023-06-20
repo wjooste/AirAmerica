@@ -1,1 +1,1 @@
-include: [".well-known/example5.txt"]
+include: - .well-known
