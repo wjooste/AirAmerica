@@ -1,5 +1,25 @@
 {
-   "webcredentials": {
-      "apps": [ "https://98fb8efc-7748-4f07-89b0-58eee689be1c.hanko.io" ]
-   }
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [ "L8N46A3T9W.com.example.apple-samplecode.ShinyL8N46A3T9W", "L8N46A3T9W.com.example.apple-samplecode.Shiny" ],
+                "components": [
+                    {
+                        "#": "no_universal_links",
+                        "exclude": true,
+                        "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
+                    }
+                ]
+            }
+        ]
+    },
+    "webcredentials": {
+        "apps": [ "L8N46A3T9W.com.example.apple-samplecode.ShinyL8N46A3T9W", "L8N46A3T9W.com.example.apple-samplecode.Shiny", "com.example.apple-samplecode.ShinyL8N46A3T9W" ],
+
+    },
+
+
+    "appclips": {
+        "apps": [ "L8N46A3T9W.com.example.apple-samplecode.ShinyL8N46A3T9W", "L8N46A3T9W.com.example.apple-samplecode.Shiny", "com.example.apple-samplecode.ShinyL8N46A3T9W" ]
+    }
 }
